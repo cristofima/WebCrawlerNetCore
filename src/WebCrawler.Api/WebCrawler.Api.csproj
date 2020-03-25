@@ -4,5 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebCrawler.Core\WebCrawler.Core.csproj" />
+    <ProjectReference Include="..\WebCrawler.Infrastructure\WebCrawler.Infrastructure.csproj" />
+  </ItemGroup>
+
 
 </Project>
