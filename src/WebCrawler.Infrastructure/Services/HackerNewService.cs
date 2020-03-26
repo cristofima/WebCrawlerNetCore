@@ -63,13 +63,13 @@ namespace WebCrawler.Infrastructure.Services
                         .InnerText
                         .Replace(".", "");
 
-                    var pointsText = thirdElement.Descendants("span")
-                            .Where(node => node.GetAttributeValue("class", "").Equals("score"))
-                            .FirstOrDefault()
-                            .InnerText
+                    var pointsText = thirdElement?.Descendants("span")
+                            ?.Where(node => node.GetAttributeValue("class", "").Equals("score"))
+                            ?.FirstOrDefault()
+                            ?.InnerText
                             .Replace(" points", "");
 
-                    var commentsAmountText = thirdElement.Descendants("a")
+                    var commentsAmountText = thirdElement?.Descendants("a")
                             .LastOrDefault()
                             .InnerText
                             .Replace("&nbsp;", "")
