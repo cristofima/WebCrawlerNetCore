@@ -26,5 +26,27 @@ namespace WebCrawler.Api.Controllers
             var result = await _hackerNewService.FindAllAsync();
             return result;
         }
+
+        /// <summary>
+        /// Hacker News List by filter 1
+        /// </summary>
+        [HttpGet]
+        [Route("filter1")]
+        public async Task<IEnumerable<HackerNew>> ListFilter1Async()
+        {
+            var result = await _hackerNewService.FindByFilter1();
+            return result;
+        }
+
+        /// <summary>
+        /// Hacker News List by filter 2
+        /// </summary>
+        [HttpGet]
+        [Route("filter2")]
+        public async Task<IEnumerable<HackerNew>> ListFilter2Async()
+        {
+            var result = await _hackerNewService.FindByFilter2();
+            return result;
+        }
     }
 }

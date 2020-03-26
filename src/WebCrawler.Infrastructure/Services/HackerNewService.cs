@@ -97,5 +97,27 @@ namespace WebCrawler.Infrastructure.Services
 
             return entries;
         }
+
+        /// <summary>
+        ///  Filter all previous entries with more than five words in the title ordered by the amount of comments first.
+        /// </summary>
+        public async Task<IEnumerable<HackerNew>> FindByFilter1()
+        {
+            var entries = await this.FindAllAsync();
+
+            return entries.Where(x => x.Title.Split(" ").Length > 5)
+                .OrderBy(x => x.CommentsAmount).ToList();
+        }
+
+        /// <summary>
+        ///  Filter all previous entries with less than or equal to five words in the title ordered by points.
+        /// </summary>
+        public async Task<IEnumerable<HackerNew>> FindByFilter2()
+        {
+            var entries = await this.FindAllAsync();
+
+            return entries.Where(x => x.Title.Split(" ").Length <= 5)
+                .OrderBy(x => x.Points).ToList();
+        }
     }
 }

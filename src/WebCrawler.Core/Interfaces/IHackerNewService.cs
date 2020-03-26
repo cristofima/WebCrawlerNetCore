@@ -7,5 +7,9 @@ namespace WebCrawler.Core.Interfaces
     public interface IHackerNewService
     {
         Task<IEnumerable<HackerNew>> FindAllAsync();
+
+        Task<IEnumerable<HackerNew>> FindByFilter1();
+
+        Task<IEnumerable<HackerNew>> FindByFilter2();
     }
 }
