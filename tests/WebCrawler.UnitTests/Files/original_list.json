@@ -1,0 +1,182 @@
+[
+	{
+		"title": "Private client-side-only PWAs are hard, but now Apple made them impossible",
+		"orderNumber": 1,
+		"commentsAmount": 719,
+		"points": 590
+	},
+	{
+		"title": "Unity Learn platform free for 3 months",
+		"orderNumber": 2,
+		"commentsAmount": 77,
+		"points": 314
+	},
+	{
+		"title": "Chrome phasing out support for User-Agent",
+		"orderNumber": 3,
+		"commentsAmount": 235,
+		"points": 512
+	},
+	{
+		"title": "Jane Street and the OCaml Compiler (2018) [video]",
+		"orderNumber": 4,
+		"commentsAmount": 27,
+		"points": 56
+	},
+	{
+		"title": "Show HN: To fight quarantine boredom I build a site to watch movies with friends",
+		"orderNumber": 5,
+		"commentsAmount": 104,
+		"points": 234
+	},
+	{
+		"title": "Letter to Myself in Late 2008",
+		"orderNumber": 6,
+		"commentsAmount": 66,
+		"points": 191
+	},
+	{
+		"title": "Getting started with bare-metal assembly",
+		"orderNumber": 7,
+		"commentsAmount": 150,
+		"points": 336
+	},
+	{
+		"title": "Learn D3",
+		"orderNumber": 8,
+		"commentsAmount": 50,
+		"points": 408
+	},
+	{
+		"title": "MeiliSearch: Zero-config alternative to Elasticsearch, made in Rust",
+		"orderNumber": 9,
+		"commentsAmount": 57,
+		"points": 218
+	},
+	{
+		"title": "Exceptional failure: breaking the STM32F1 read-out protection",
+		"orderNumber": 10,
+		"commentsAmount": 12,
+		"points": 52
+	},
+	{
+		"title": "5,000-year-old sword discovered by archaeology student at a Venetian monastery",
+		"orderNumber": 11,
+		"commentsAmount": 28,
+		"points": 55
+	},
+	{
+		"title": "Speeding up Linux disk encryption",
+		"orderNumber": 12,
+		"commentsAmount": 121,
+		"points": 413
+	},
+	{
+		"title": "Show HN: Explore Quake/Half-Life maps in your browser",
+		"orderNumber": 13,
+		"commentsAmount": 27,
+		"points": 141
+	},
+	{
+		"title": "Smalltalk-87",
+		"orderNumber": 14,
+		"commentsAmount": 7,
+		"points": 88
+	},
+	{
+		"title": "Social distancing slowing not only Covid-19, but other diseases too",
+		"orderNumber": 15,
+		"commentsAmount": 95,
+		"points": 106
+	},
+	{
+		"title": "Unsupervised learning of probably symmetric deformable 3D objects from images",
+		"orderNumber": 16,
+		"commentsAmount": 35,
+		"points": 153
+	},
+	{
+		"title": "Mux (YC W16) is hiring generalists to focus on Elixir and TypeScript/React apps",
+		"orderNumber": 17,
+		"commentsAmount": 0,
+		"points": 0
+	},
+	{
+		"title": "Samsung Begins Mass Production of 512GB EUFS 3.1",
+		"orderNumber": 18,
+		"commentsAmount": 21,
+		"points": 68
+	},
+	{
+		"title": "Ask HN: How would you improve this bash oneliner for deleting tweets?",
+		"orderNumber": 19,
+		"commentsAmount": 8,
+		"points": 15
+	},
+	{
+		"title": "Show HN: Sorcia – Self-hosted web front end for Git repositories, written in Go",
+		"orderNumber": 20,
+		"commentsAmount": 17,
+		"points": 55
+	},
+	{
+		"title": "The structures of computation and the mathematical structure of nature (2010)",
+		"orderNumber": 21,
+		"commentsAmount": 5,
+		"points": 92
+	},
+	{
+		"title": "HP 5061A Cesium Clock [video]",
+		"orderNumber": 22,
+		"commentsAmount": 10,
+		"points": 44
+	},
+	{
+		"title": "What to Do If Your Startup Is Running Out of Cash",
+		"orderNumber": 23,
+		"commentsAmount": 13,
+		"points": 22
+	},
+	{
+		"title": "Kubernetes 1.18",
+		"orderNumber": 24,
+		"commentsAmount": 55,
+		"points": 86
+	},
+	{
+		"title": "GraphQL Mesh",
+		"orderNumber": 25,
+		"commentsAmount": 9,
+		"points": 60
+	},
+	{
+		"title": "Ask HN: Best sleep trackers?",
+		"orderNumber": 26,
+		"commentsAmount": 127,
+		"points": 107
+	},
+	{
+		"title": "Show HN: pion/ion, self-hosted conferencing software with single command deploy",
+		"orderNumber": 27,
+		"commentsAmount": 20,
+		"points": 89
+	},
+	{
+		"title": "Pouring one out for the end of O’Reilly’s in-person conferences",
+		"orderNumber": 28,
+		"commentsAmount": 53,
+		"points": 88
+	},
+	{
+		"title": "Show HN: Panther v1.0 – Open Source, Cloud-Native SIEM",
+		"orderNumber": 29,
+		"commentsAmount": 33,
+		"points": 100
+	},
+	{
+		"title": "Show HN: Skynet Simulator",
+		"orderNumber": 30,
+		"commentsAmount": 172,
+		"points": 404
+	}
+]

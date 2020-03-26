@@ -1,0 +1,56 @@
+[
+	{
+		"title": "HP 5061A Cesium Clock [video]",
+		"orderNumber": 22,
+		"commentsAmount": 10,
+		"points": 44
+	},
+	{
+		"title": "GraphQL Mesh",
+		"orderNumber": 25,
+		"commentsAmount": 9,
+		"points": 60
+	},
+	{
+		"title": "Kubernetes 1.18",
+		"orderNumber": 24,
+		"commentsAmount": 55,
+		"points": 86
+	},
+	{
+		"title": "Smalltalk-87",
+		"orderNumber": 14,
+		"commentsAmount": 7,
+		"points": 88
+	},
+	{
+		"title": "Ask HN: Best sleep trackers?",
+		"orderNumber": 26,
+		"commentsAmount": 127,
+		"points": 107
+	},
+	{
+		"title": "Getting started with bare-metal assembly",
+		"orderNumber": 7,
+		"commentsAmount": 150,
+		"points": 336
+	},
+	{
+		"title": "Show HN: Skynet Simulator",
+		"orderNumber": 30,
+		"commentsAmount": 172,
+		"points": 404
+	},
+	{
+		"title": "Learn D3",
+		"orderNumber": 8,
+		"commentsAmount": 50,
+		"points": 408
+	},
+	{
+		"title": "Speeding up Linux disk encryption",
+		"orderNumber": 12,
+		"commentsAmount": 121,
+		"points": 413
+	}
+]
