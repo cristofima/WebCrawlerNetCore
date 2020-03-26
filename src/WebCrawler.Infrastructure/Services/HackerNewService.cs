@@ -101,9 +101,12 @@ namespace WebCrawler.Infrastructure.Services
         /// <summary>
         ///  Filter all previous entries with more than five words in the title ordered by the amount of comments first.
         /// </summary>
-        public async Task<IEnumerable<HackerNew>> FindByFilter1()
+        public async Task<IEnumerable<HackerNew>> FindByFilter1(IEnumerable<HackerNew> entries = null)
         {
-            var entries = await this.FindAllAsync();
+            if (entries == null)
+            {
+                entries = await this.FindAllAsync();
+            }
 
             return entries.Where(x => x.Title.Split(" ").Length > 5)
                 .OrderBy(x => x.CommentsAmount).ToList();
@@ -112,9 +115,12 @@ namespace WebCrawler.Infrastructure.Services
         /// <summary>
         ///  Filter all previous entries with less than or equal to five words in the title ordered by points.
         /// </summary>
-        public async Task<IEnumerable<HackerNew>> FindByFilter2()
+        public async Task<IEnumerable<HackerNew>> FindByFilter2(IEnumerable<HackerNew> entries = null)
         {
-            var entries = await this.FindAllAsync();
+            if (entries == null)
+            {
+                entries = await this.FindAllAsync();
+            }
 
             return entries.Where(x => x.Title.Split(" ").Length <= 5)
                 .OrderBy(x => x.Points).ToList();

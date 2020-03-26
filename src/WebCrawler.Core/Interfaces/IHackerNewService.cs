@@ -8,8 +8,8 @@ namespace WebCrawler.Core.Interfaces
     {
         Task<IEnumerable<HackerNew>> FindAllAsync();
 
-        Task<IEnumerable<HackerNew>> FindByFilter1();
+        Task<IEnumerable<HackerNew>> FindByFilter1(IEnumerable<HackerNew> entries = null);
 
-        Task<IEnumerable<HackerNew>> FindByFilter2();
+        Task<IEnumerable<HackerNew>> FindByFilter2(IEnumerable<HackerNew> entries = null);
     }
 }
