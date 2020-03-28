@@ -19,7 +19,7 @@ namespace WebCrawler.UnitTests.Tests
         {
             this.hackerNewService = new HackerNewService();
 
-            string textOriginal = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "\\Files\\original_list.json");
+            string textOriginal = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "/Files/original_list.json");
 
             this.originalList = JsonConvert.DeserializeObject<IEnumerable<HackerNew>>(textOriginal);
         }
@@ -29,7 +29,7 @@ namespace WebCrawler.UnitTests.Tests
         {
             // Arrange
 
-            string textExpected = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "\\Files\\expected_list_filter_1.json");
+            string textExpected = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "/Files/expected_list_filter_1.json");
             var expected = JsonConvert.DeserializeObject<IEnumerable<HackerNew>>(textExpected);
 
             // Act
@@ -47,7 +47,7 @@ namespace WebCrawler.UnitTests.Tests
         {
             // Arrange
 
-            string textExpected = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "\\Files\\expected_list_filter_2.json");
+            string textExpected = File.ReadAllText(TestContext.CurrentContext.TestDirectory + "/Files/expected_list_filter_2.json");
             var expected = JsonConvert.DeserializeObject<IEnumerable<HackerNew>>(textExpected);
 
             // Act
@@ -59,6 +59,7 @@ namespace WebCrawler.UnitTests.Tests
             Assert.AreEqual(expected.Count(), result.Count());
             this.CheckValuesFromCollections(expected.ToList(), result.ToList());
         }
+
 
         private void CheckValuesFromCollections(List<HackerNew> expectedList, List<HackerNew> resultList)
         {
